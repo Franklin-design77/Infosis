@@ -1,3 +1,51 @@
+/*Question: Minimum Deletions to Make Character Frequencies Unique
+
+Given a string s containing lowercase English letters, delete characters from the string so that no two different characters have the same frequency.
+
+Return the minimum number of deletions required.
+
+Input
+aaabbbcc
+Output
+2
+Explanation
+
+The frequencies are:
+
+a → 3
+b → 3
+c → 2
+
+Frequencies must be unique.
+
+Delete one b:
+
+a → 3
+b → 2
+c → 2
+
+Still duplicate.
+
+Delete one c:
+
+a → 3
+b → 2
+c → 1
+
+Now the frequencies are:
+
+3, 2, 1
+
+They are unique.
+
+Therefore:
+
+Output = 2 */
+
+
+
+
+
 import java.util.*;
 import java.util.Scanner;
 public class FrequencyUnique {
